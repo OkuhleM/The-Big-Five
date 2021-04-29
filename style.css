@@ -1,0 +1,44 @@
+#nav-bar {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #95c8;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  
+}
+
+a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  float: left;
+}
+
+a:hover {
+  background-color: blanchedalmond;
+  color: navy;
+}
+
+body {
+  margin: 0;
+  font-size: 1, 7rem;
+}
+
+.About {
+  padding: 4rem;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: silver;
+  color: black;
+  text-align: center;
+}
+
