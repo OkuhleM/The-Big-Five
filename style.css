@@ -2,8 +2,8 @@
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #95c8;
-  position: sticky;
+  background-color: #601A35;
+  position: fixed;
   top: 0;
   width: 100%;
 }
@@ -18,8 +18,8 @@ a {
 }
 
 a:hover {
-  background-color: blanchedalmond;
-  color: navy;
+  /* background-color: blanchedalmond; */
+  color: aqua;
 }
 
 body {
@@ -39,4 +39,45 @@ footer {
   background-color: silver;
   color: black;
   text-align: center;
+}
+
+.bigfive {
+  display: block;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: auto;
+}
+
+h1 {
+  background-color: black;
+  color: magenta;
+  padding-bottom: 2rem;
+  text-align: center;
+  font-size: Fredoka One;
+}
+
+.About {
+  
+  /* border: 4px solid black; */
+  display: block;
+  background-color: rgb(0, 49, 82);
+}
+
+.heading {
+  padding: 0, 2% 5%;
+  /* padding-right: 25%; */
+  margin: 5% 4%;
+  /* margin-right: 25%; */
+  
+  overflow: hidden;
+}
+
+.firstP {
+  width: 300px;
+  height: 100px;
+  padding: 120px;
+  border: 5px solid #311432;
+  color: #95c8d8;
+  font-size: 1rem;
 }
