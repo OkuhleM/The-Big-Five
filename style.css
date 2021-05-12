@@ -1,106 +1,17 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 #nav-bar {
   margin: 0;
-  padding: 0;
+  padding: 10px;
   overflow: hidden;
-  background-color: #601A35;
+  background-color: pink;
   position: fixed;
   top: 0;
   width: 100%;
 }
 
-a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  float: left;
-}
 
-a:hover {
-  /* background-color: blanchedalmond; */
-  color: aqua;
-}
-
-body {
-  
-  font-size: 1.4rem; 
-  align-items: center;
-  justify-content: center;
-  /* display: flex; */
-  height: 100vh;
-  color: white;
-  background-color: teal;
-}
-
-.About {
-  padding: 4rem;
-}
-
-footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: silver;
-  color: black;
-  text-align: center;
-}
-
-.bigfive {
-  display: block;
-  /* justify-content: center;
-  text-align: center; */
-  width: 100%;
-  height: auto;
-}
-
-h1 {
-  /* background-color: black; */
-  color: cyan;
-  padding-bottom: 2rem;
-  text-align: center;
-  font-size: Fredoka One;
-}
-
-.About {
-  /* border: 4px solid black; */
-  display: block;
-  background-color: #052c38;
-  text-align: center;
-  border: 5px solid #311432;
-  border-radius: 2rem;
-  top: 15rem;
-}
-
-.heading {
-  padding: 0, 2% 5%;
-  /* padding-right: 25%; */
-  margin: 5% 4%;
-  /* margin-right: 25%; */
-  overflow: hidden;
-}
-
-.firstP {
-  border: 3px solid black;
-  border-radius: 20rem;
-  margin: 39px 198px;
-  padding: 45px 198px;
-  color: white;
-}
 
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
-
-
- 
-  

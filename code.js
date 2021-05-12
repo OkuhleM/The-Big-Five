@@ -1,11 +1,54 @@
-var audio = new Audio('/audio.mp3/bison (1).mp3'); audio.play();
+function playSound(soundobj) {
+  var thissound = document.getElementById(soundobj);
+  thissound.play();
+}
 
-var Audio = new Audio('/audio.mp3/bison (1).mp3');
-     
-     function myAudioFunction(picture) {
-         if(picture == '/audio.mp3/bison (1).mp3') {
-             Audio.play();
-         } else if(picture == 'b') {
-             Audio.play();
-         }
-     }
+function stopSound(soundobj) {
+  var thissound = document.getElementById(soundobj);
+  thissound.pause();
+  thissound.currentTime = 0;
+}
+
+function playSound(soundobj) {
+  var thissound = document.getElementById(soundobj);
+  thissound.play();
+}
+
+function stopSound(soundobj) {
+  var thissound = document.getElementById(soundobj);
+  thissound.pause();
+  thissound.currentTime = 0;
+}
+
+function playSound(soundobj) {
+  var thissound = document.getElementById(soundobj);
+  thissound.play();
+}
+
+function stopSound(soundobj) {
+  var thissound = document.getElementById(soundobj);
+  thissound.pause();
+  thissound.currentTime = 0;
+}
+
+function playSound(soundobj) {
+  var thissound = document.getElementById(soundobj);
+  thissound.play();
+}
+
+function stopSound(soundobj) {
+  var thissound = document.getElementById(soundobj);
+  thissound.pause();
+  thissound.currentTime = 0;
+}
+
+function playSound(soundobj) {
+  var thissound = document.getElementById(soundobj);
+  thissound.play();
+}
+
+function stopSound(soundobj) {
+  var thissound = document.getElementById(soundobj);
+  thissound.pause();
+  thissound.currentTime = 0;
+}
